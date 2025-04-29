@@ -3,7 +3,7 @@ from twilio.rest import Client
 
 app = Flask(__name__)
 
-@app.route('/errorUsuarios', methods=['GET'])
+@app.route('/monitoreo/errorUsuarios', methods=['GET'])
 def mandar_mensaje_advertencia():
     print("Se entro a la funcion!")
     """account_sid = 'AC55994d626e2eb71e524c938bf8c27b07'  
