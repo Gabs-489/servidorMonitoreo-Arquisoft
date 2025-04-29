@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/errorUsuarios', methods=['GET'])
 def mandar_mensaje_advertencia():
     print("Se entro a la funcion!")
-    account_sid = 'AC55994d626e2eb71e524c938bf8c27b07'  
+    """account_sid = 'AC55994d626e2eb71e524c938bf8c27b07'  
     auth_token = '78154485797bd9dc9a5ee57f5ab97914' 
 
     
@@ -20,7 +20,7 @@ def mandar_mensaje_advertencia():
         from_=from_number,
         to=to_number
     )
-    print("mensaje enviado")
+    print("mensaje enviado")"""
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)
