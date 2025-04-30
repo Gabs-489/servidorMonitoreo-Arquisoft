@@ -7,7 +7,7 @@ app = Flask(__name__)
 def mandar_mensaje_advertencia():
     print("Se entro a la funcion!")
     account_sid = 'AC55994d626e2eb71e524c938bf8c27b07'  
-    auth_token = '78154485797bd9dc9a5ee57f5ab97914' 
+    auth_token = 'bf2b14935ce60670fb3f4b41dbd5f98e' 
 
     
     from_number = '+14634030212' 
